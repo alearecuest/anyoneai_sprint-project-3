@@ -1,0 +1,45 @@
+# Data and embeddings directories
+data/images/
+data/Embeddings/
+Embeddings/
+Embeddings_test/
+
+# Large model files
+*.h5
+*.pkl
+*.joblib
+*.pth
+*.pt
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Results (optional - comment if you want to track)
+results/
+
+# Environment variables
+.env
+.env.local
